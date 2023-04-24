@@ -1,2 +1,19 @@
+### Use "echo" in CMD:
+
 FROM alpine:latest
 CMD ["echo" , "welcome to the world"]
+
+
+
+## ENTRYPOINT and CMD:
+
+FROM alpine:latest
+ENTRYPOINT ["echo"]
+CMD ["Madhuri"]
+
+
+
+
+
+
+
